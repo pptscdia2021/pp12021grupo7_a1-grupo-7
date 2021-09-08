@@ -1,9 +1,10 @@
+import matplotlib
 import requests
 import csv
 from datetime import datetime
 from bs4 import BeautifulSoup
 import pandas as pd
-
+import matplotlib.pyplot as plt
 url_page = 'http://www.bolsamadrid.es/esp/aspx/Indices/Resumen.aspx'
 
 page = requests.get(url_page).text
