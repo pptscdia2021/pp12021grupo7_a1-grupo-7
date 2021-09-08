@@ -1,8 +1,6 @@
 if __name__ == '__main__':
     print("Cotizaciones") 
 
-
-
 #Identificar las 2 cotizaciones de mayor ganancia y de mayor perdida.
 
 #si los cotizaciones están en una lista:

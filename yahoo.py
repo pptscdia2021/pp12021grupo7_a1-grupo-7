@@ -15,3 +15,4 @@ def yahoo (nonbreaccion):                                                      #
     nombre=tipo.info["longName"]                                               # guardamos el nombre de la accion                                                        
     return nombre, compra, venta                                               # Devuelve el nombre de la accion, el valor de compra y venta
     
+    
