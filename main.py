@@ -38,12 +38,10 @@ with open('bolsa_ibex35.csv', 'r', encoding='utf-8') as csv_file2:
     for line in csv_reader:
         print(line)
 csv_file2.close()
-
 df = pd.read_csv('bolsa_ibex35.csv')
 
 headerList= ["Name" , "Porcentaje"]
 
-df.to_csv('bolsa_ibex35.csv',header=headerList, index=True)
-
+df.to_csv('bolsa_ibex35.csv',header=headerList, index=False)
 if __name__ == "__main__":
     print("Principal")
