@@ -1,79 +1,81 @@
-Name,Porcentaje
-IBEX 35®,"-0,63"
-IBEX 35® con Dividendos,"-0,63"
-IBEX MEDIUM CAP®,"-0,98"
-IBEX SMALL CAP®,"-0,21"
-IBEX 35® Bancos,"-2,07"
-IBEX 35® Energía,"-0,20"
-IBEX 35® Construcción,"0,75"
-IBEX TOP Dividendo®,"-0,53"
-IBEX 35® con Dividendos Netos,"-0,63"
-IBEX 35® Inverso,"0,63"
-IBEX 35® Doble Inverso,"1,26"
-IBEX 35® Inverso X3,"1,88"
-IBEX 35® Inverso X5,"3,13"
-IBEX 35® Inverso X10,"6,32"
-IBEX 35® Doble Apalancado,"-1,26"
-IBEX 35® Doble Apalancado Bruto,"-1,25"
-IBEX 35® Doble Apalancado Neto,"-1,25"
-IBEX 35® Apalancado X3,"-1,89"
-IBEX 35® Apalancado Neto X3,"-1,88"
-IBEX 35® Apalancado Neto X5,"-3,12"
-IBEX 35® Apalancado Neto X10,"-6,26"
-IBEX 35® Capped Net Return,"-0,63"
-IBEX 35® Impacto Div,- 
-IBEX 35® Volatilidad Objetivo 10% Estándar,"-0,44"
-IBEX 35® Volatilidad Objetivo 12% Estándar,"-0,53"
-IBEX 35® Volatilidad Objetivo 15% Estándar,"-0,67"
-IBEX 35® Volatilidad Objetivo 18% Estándar,"-0,77"
-IBEX 35® Volatilidad Objetivo 10% Financiado,"-0,45"
-IBEX 35® Volatilidad Objetivo 12% Financiado,"-0,52"
-IBEX 35® Volatilidad Objetivo 15% Financiado,"-0,63"
-IBEX 35® Volatilidad Objetivo 18% Financiado,"-0,81"
-VIBEX®,"10,79"
-IBEX 35® Skew,"-6,89"
-IBEX 35® BuyWrite,"-0,24"
-IBEX 35® PutWrite,"-0,12"
-IBEX 35® Protective Put,"-0,09"
-IBEX 35® Venta de Strangle,"-0,14"
-IBEX TOP Dividendo® Rentabilidad,"-0,53"
-IBEX TOP Dividendo® Rentabilidad Neta,"-0,53"
-IBEX MEDIUM CAP® con Dividendos,"-0,98"
-IBEX MEDIUM CAP® con Dividendos Netos,"-0,98"
-IBEX SMALL CAP® con Dividendos,"-0,21"
-IBEX SMALL CAP® con Dividendos Netos,"-0,21"
-IBEX Growth Market® 15,"-0,23"
-IBEX Growth Market® All Share,"-0,34"
-FTSE4Good IBEX,"-0,70"
-FTSE4Good IBEX Total Return,"-0,70"
-FTSE4Good IBEX Net Return,"-0,70"
-FTSE Latibex All Share,"-4,00"
-FTSE Latibex TOP,"-2,76"
-FTSE Latibex BRASIL,"-4,49"
-I.G.B.M.,"-0,72"
-I.G.B.M. Total,"-0,71"
-BCN GLOBAL 100 (Base 1986),"-0,99"
-BCN GLOBAL 100 (Base 1963),"-0,99"
-BCN MID 50,"-0,52"
-BCN PROFIT-30,"-0,63"
-BCN ROE-30,"-0,51"
-BCN PER-30,"-0,60"
-BCN INDEXCAT,"-0,60"
-I.BILBAO 2000,"-0,68"
-I.G.B.V.,"-0,94"
-Índice TEF Apalancado X3,"1,16"
-Índice SAN Apalancado X3,"-6,93"
-Índice BBVA Apalancado X3,"-3,91"
-Índice ITX Apalancado X3,"-0,10"
-Índice TEF Apalancado X5,"1,96"
-Índice SAN Apalancado X5,"-11,56"
-Índice BBVA Apalancado X5,"-6,52"
-Índice ITX Apalancado X5,"-0,15"
-Índice TEF Inverso X3,"-1,23"
-Índice SAN Inverso X3,"6,88"
-Índice BBVA Inverso X3,"3,96"
-Índice ITX Inverso X3,"0,04"
-Índice TEF Inverso X5,"-1,75"
-Índice SAN Inverso X5,"11,48"
-Índice BBVA Inverso X5,"6,44"
-Índice ITX Inverso X5,"0,09"
+Name,Porcentaje,Fecha
+IBEX 35®,"-0,63",2021-09-09 00:07:27.421029
+IBEX 35® con Dividendos,"-0,63",2021-09-09 00:07:27.422026
+IBEX MEDIUM CAP®,"-0,98",2021-09-09 00:07:27.422026
+IBEX SMALL CAP®,"-0,21",2021-09-09 00:07:27.423023
+IBEX 35® Bancos,"-2,07",2021-09-09 00:07:27.423023
+IBEX 35® Energía,"-0,20",2021-09-09 00:07:27.424020
+IBEX 35® Construcción,"0,75",2021-09-09 00:07:27.424020
+IBEX TOP Dividendo®,"-0,53",2021-09-09 00:07:27.424020
+IBEX 35® con Dividendos Netos,"-0,63",2021-09-09 00:07:27.425019
+IBEX 35® Inverso,"0,63",2021-09-09 00:07:27.425019
+IBEX 35® Doble Inverso,"1,26",2021-09-09 00:07:27.426015
+IBEX 35® Inverso X3,"1,88",2021-09-09 00:07:27.427012
+IBEX 35® Inverso X5,"3,13",2021-09-09 00:07:27.427012
+IBEX 35® Inverso X10,"6,32",2021-09-09 00:07:27.427012
+IBEX 35® Doble Apalancado,"-1,26",2021-09-09 00:07:27.428010
+IBEX 35® Doble Apalancado Bruto,"-1,25",2021-09-09 00:07:27.428010
+IBEX 35® Doble Apalancado Neto,"-1,25",2021-09-09 00:07:27.429007
+IBEX 35® Apalancado X3,"-1,89",2021-09-09 00:07:27.429007
+IBEX 35® Apalancado Neto X3,"-1,88",2021-09-09 00:07:27.429007
+IBEX 35® Apalancado Neto X5,"-3,12",2021-09-09 00:07:27.430004
+IBEX 35® Apalancado Neto X10,"-6,26",2021-09-09 00:07:27.430004
+IBEX 35® Capped Net Return,"-0,63",2021-09-09 00:07:27.431002
+IBEX 35® Impacto Div,- ,2021-09-09 00:07:27.431002
+IBEX 35® Volatilidad Objetivo 10% Estándar,"-0,44",2021-09-09 00:07:27.432000
+IBEX 35® Volatilidad Objetivo 12% Estándar,"-0,53",2021-09-09 00:07:27.432000
+IBEX 35® Volatilidad Objetivo 15% Estándar,"-0,67",2021-09-09 00:07:27.432000
+IBEX 35® Volatilidad Objetivo 18% Estándar,"-0,77",2021-09-09 00:07:27.432997
+IBEX 35® Volatilidad Objetivo 10% Financiado,"-0,45",2021-09-09 00:07:27.432997
+IBEX 35® Volatilidad Objetivo 12% Financiado,"-0,52",2021-09-09 00:07:27.432997
+IBEX 35® Volatilidad Objetivo 15% Financiado,"-0,63",2021-09-09 00:07:27.433995
+IBEX 35® Volatilidad Objetivo 18% Financiado,"-0,81",2021-09-09 00:07:27.434991
+VIBEX®,"10,79",2021-09-09 00:07:27.434991
+IBEX 35® Skew,"-6,89",2021-09-09 00:07:27.434991
+IBEX 35® BuyWrite,"-0,24",2021-09-09 00:07:27.435990
+IBEX 35® PutWrite,"-0,12",2021-09-09 00:07:27.435990
+IBEX 35® Protective Put,"-0,09",2021-09-09 00:07:27.435990
+IBEX 35® Venta de Strangle,"-0,14",2021-09-09 00:07:27.436985
+IBEX TOP Dividendo® Rentabilidad,"-0,53",2021-09-09 00:07:27.436985
+IBEX TOP Dividendo® Rentabilidad Neta,"-0,53",2021-09-09 00:07:27.436985
+IBEX MEDIUM CAP® con Dividendos,"-0,98",2021-09-09 00:07:27.437984
+IBEX MEDIUM CAP® con Dividendos Netos,"-0,98",2021-09-09 00:07:27.437984
+IBEX SMALL CAP® con Dividendos,"-0,21",2021-09-09 00:07:27.438980
+IBEX SMALL CAP® con Dividendos Netos,"-0,21",2021-09-09 00:07:27.438980
+IBEX Growth Market® 15,"-0,23",2021-09-09 00:07:27.438980
+IBEX Growth Market® All Share,"-0,34",2021-09-09 00:07:27.439980
+FTSE4Good IBEX,"-0,70",2021-09-09 00:07:27.439980
+FTSE4Good IBEX Total Return,"-0,70",2021-09-09 00:07:27.439980
+FTSE4Good IBEX Net Return,"-0,70",2021-09-09 00:07:27.440975
+FTSE Latibex All Share,"-4,00",2021-09-09 00:07:27.440975
+FTSE Latibex TOP,"-2,76",2021-09-09 00:07:27.440975
+FTSE Latibex BRASIL,"-4,49",2021-09-09 00:07:27.441973
+I.G.B.M.,"-0,72",2021-09-09 00:07:27.441973
+I.G.B.M. Total,"-0,71",2021-09-09 00:07:27.442970
+BCN GLOBAL 100 (Base 1986),"-0,99",2021-09-09 00:07:27.442970
+BCN GLOBAL 100 (Base 1963),"-0,99",2021-09-09 00:07:27.442970
+BCN MID 50,"-0,52",2021-09-09 00:07:27.443967
+BCN PROFIT-30,"-0,63",2021-09-09 00:07:27.443967
+BCN ROE-30,"-0,51",2021-09-09 00:07:27.443967
+BCN PER-30,"-0,60",2021-09-09 00:07:27.444974
+BCN INDEXCAT,"-0,60",2021-09-09 00:07:27.444974
+I.BILBAO 2000,"-0,68",2021-09-09 00:07:27.445963
+I.G.B.V.,"-0,94",2021-09-09 00:07:27.445963
+Índice TEF Apalancado X3,"1,16",2021-09-09 00:07:27.445963
+Índice SAN Apalancado X3,"-6,93",2021-09-09 00:07:27.446960
+Índice BBVA Apalancado X3,"-3,91",2021-09-09 00:07:27.446960
+Índice ITX Apalancado X3,"-0,10",2021-09-09 00:07:27.446960
+Índice TEF Apalancado X5,"1,96",2021-09-09 00:07:27.447958
+Índice SAN Apalancado X5,"-11,56",2021-09-09 00:07:27.447958
+Índice BBVA Apalancado X5,"-6,52",2021-09-09 00:07:27.447958
+Índice ITX Apalancado X5,"-0,15",2021-09-09 00:07:27.448954
+Índice TEF Inverso X3,"-1,23",2021-09-09 00:07:27.448954
+Índice SAN Inverso X3,"6,88",2021-09-09 00:07:27.449951
+Índice BBVA Inverso X3,"3,96",2021-09-09 00:07:27.449951
+Índice ITX Inverso X3,"0,04",2021-09-09 00:07:27.450949
+Índice TEF Inverso X5,"-1,75",2021-09-09 00:07:27.450949
+Índice SAN Inverso X5,"11,48",2021-09-09 00:07:27.451946
+Índice BBVA Inverso X5,"6,44",2021-09-09 00:07:27.452943
+Índice ITX Inverso X5,"0,09",2021-09-09 00:07:27.452943
+Índice ITX Inverso X5,"0,09",2021-09-09 00:24:29.907463
+Índice ITX Inverso X5,"0,09",2021-09-09 00:25:55.456227
