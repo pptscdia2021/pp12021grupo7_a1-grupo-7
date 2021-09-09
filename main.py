@@ -2,6 +2,7 @@ import matplotlib
 import requests
 import csv
 from datetime import datetime
+import time
 from bs4 import BeautifulSoup
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -38,11 +39,14 @@ with open('bolsa_ibex35.csv', 'r', encoding='utf-8') as csv_file2:
     next(csv_reader)
     for line in csv_reader:
         print(line)
+
 csv_file2.close()
 df = pd.read_csv('bolsa_ibex35.csv')
-
 headerList= ["Name" , "Porcentaje"]
+df.columns = headerList
+df.to_csv('bolsa_ibex35.csv', index=False)
 
-df.to_csv('bolsa_ibex35.csv',header=headerList, index=False)
+df = df.sort_values(['Porcentaje'], ascending=True)
+print(df)
 if __name__ == "__main__":
     print("Principal")
