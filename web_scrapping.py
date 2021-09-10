@@ -1,10 +1,10 @@
-import matplotlib
+
 import requests
 import csv
 from datetime import datetime
 from bs4 import BeautifulSoup
 import pandas as pd
-import matplotlib.pyplot as plt
+
 import os
 
 url_page = 'http://www.bolsamadrid.es/esp/aspx/Indices/Resumen.aspx'
@@ -56,6 +56,6 @@ def obtener_Datos(url=url_page, table_id=id_table, file_csv=path, info_ob=3, inf
 
     df = df.sort_values([info_header], ascending=True)     #A la tabla antes hecha la ordeno y la guardo
     return df
-
+obtener_Datos()
 if __name__ == "__main__":
     print("Principal")
