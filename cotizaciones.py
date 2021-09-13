@@ -10,7 +10,7 @@ import matplotlib
 
 
 def cotizaciones():
-    ganancias_perdidas = {[]}
+    ganancias_perdidas = [{}]
 
     largo_df = len(df)
 
