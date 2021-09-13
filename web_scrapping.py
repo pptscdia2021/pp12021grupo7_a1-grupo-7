@@ -11,7 +11,7 @@ url_page = "https://www.bolsamadrid.es/esp/aspx/Mercados/Precios.aspx?indice=ESI
 id_table = "ctl00_Contenido_tblAcciones"
 path = 'bolsa_ibex35.csv'
 
-locale.setlocale(locale.LC_ALL, 'en_US.UTF-8')
+locale.setlocale(locale.LC_ALL, 'nl_NL')
 def obtener_Datos(url=url_page, table_id=id_table, file_csv=path, info_ob=2, info_header = "Porcentaje"):
     """Función que obtiene los datos de la tabla de una página. Parametros:
     url= Indica el url de la página
@@ -60,6 +60,5 @@ def obtener_Datos(url=url_page, table_id=id_table, file_csv=path, info_ob=2, inf
 
     #df = df.sort_values([info_header], ascending=True)     Codigo para tener la tabla antes hecha ordenada
     return df
-obtener_Datos()
 if __name__ == "__main__":
     print("Principal")
