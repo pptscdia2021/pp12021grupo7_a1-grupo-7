@@ -1,45 +1,31 @@
-import matplotlib
+from web_scrapping import obtener_Datos
+a= list(obtener_Datos().sort_values(["Porcentaje"], ascending=True).Porcentaje)
+b= list(obtener_Datos().sort_values(["Porcentaje"], ascending=True).Name)
 
-#Identificar las 2 cotizaciones de mayor ganancia y de mayor perdida.
+def cotizaciones(tipo, nombres, dato):
+    if tipo == "perdida":
+        if dato[0]> 0:
+            #print("No hay cotizaciones con pérdida")
+            devolver = []
+            return devolver
+        elif dato[1]>0:
+            #print("La cotización con mayor pérdida es: \n" + str(nombres[0]) , "con una valor de " + str(dato[0]))
+            devolver = [{nombres[0]:dato[0]}]
+            return devolver
+        else:
+            #print("Las cotizaciones con mayor pérdida son: \n" + str(nombres[0]) , " con una valor de: ", str(dato[0]), "\n " , str(nombres[1]) , " con una valor de: ", str(dato[1]))
+            devolver = [{nombres[0]:dato[0]}, {nombres[1]:dato[1]}]
+            return devolver
+    if tipo == "ganancia":
+        if dato[-1]< 0:
+            devolver = []
+            return devolver
+        elif dato[-2] <0:
+            #print("La cotización con mayor ganancia es \n" + str(nombres[-1]) , "con una valor de " + str(dato[-1]))
+            devolver = [{nombres[-1]:dato[-1]}]
+            return devolver
+        else:
+            #print("Las cotizaciones con mayor pérdida son: \n" + str(nombres[-2]) , " con una valor de: ", str(dato[-2]), "\n " , str(nombres[-1]) , " con una valor de: ", str(dato[-1]) )
+            devolver =[{nombres[-1]:dato[-1]}, {nombres[-2]:dato[-2]}]
+            return devolver
 
-
-#df = df.sort_values([info_header], ascending=True)     Codigo para tener la tabla antes hecha ordenada
-
-
-
-
-
-def cotizaciones():
-    ganancias_perdidas = {[]}
-
-    largo_df = len(df)
-
-    mayor_perdida = df[0]       
-
-    for i in range(len(df)):
-        if df[i]== mayor_perdida:
-            df[i]["Name"] = nombre_mayor_perdida
-            ganancias_perdidas["nombre_ganancia"]= nombre_mayor_perdida
-            ganancias_perdidas["valor_ganancia"]= df[0]
-
-        if df[largo_df]== mayor_ganancia:
-            df[i]["Name"] = nombre_mayor_ganancia
-            ganancias_perdidas["nombre_ganancia"]= nombre_mayor_ganancia
-            ganancias_perdidas["valor_ganancia"]= df[largo_df]    
-        
-    
-    names = ganancias_perdidas["nombre_ganancia"]
-    porcentajes = ganancias_perdidas["valor_ganancia"]
-
-    matplotlib.rcParams["figure.figsize"] =10 , 5
-        pyplot.scatter(porcentajes, names, edgecolors="black", linewidths=1,alpha=0.75)
-        pyplot.title("  MAYORES PERDIDAS Y GANANCIAS")
-        pyplot.xlabel("PORCENTAJE")
-        pyplot.ylabel("EMPRESAS")
-
-        pyplot.tight_layout()
-        pyplot.show()
-
-
-if __name__ == '__main__':
-    print("Cotizaciones") 

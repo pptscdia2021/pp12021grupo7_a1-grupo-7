@@ -1,4 +1,4 @@
-
+import locale
 import requests
 import csv
 from datetime import datetime
@@ -11,7 +11,7 @@ url_page = "https://www.bolsamadrid.es/esp/aspx/Mercados/Precios.aspx?indice=ESI
 id_table = "ctl00_Contenido_tblAcciones"
 path = 'bolsa_ibex35.csv'
 
-
+locale.setlocale(locale.LC_ALL, 'nl_NL')
 def obtener_Datos(url=url_page, table_id=id_table, file_csv=path, info_ob=2, info_header = "Porcentaje"):
     """Función que obtiene los datos de la tabla de una página. Parametros:
     url= Indica el url de la página
@@ -41,8 +41,10 @@ def obtener_Datos(url=url_page, table_id=id_table, file_csv=path, info_ob=2, inf
                 name=celda.text      #Si la celda es la primera, le asigna ese valor a 'name' ya que la primera fila suele ser el nombre
             if nroCelda == 1:
                 ultim = celda.text
+                ultim = locale.atof(ultim)
             if nroCelda== info_ob:    #Si el num de celda concide con info_ob le asigna ese valor a 'info'
                 info=celda.text
+                info= locale.atof(info)
             nroCelda+=1
         nroFila+=1
 
@@ -58,6 +60,5 @@ def obtener_Datos(url=url_page, table_id=id_table, file_csv=path, info_ob=2, inf
 
     #df = df.sort_values([info_header], ascending=True)     Codigo para tener la tabla antes hecha ordenada
     return df
-
 if __name__ == "__main__":
     print("Principal")
