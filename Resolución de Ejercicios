@@ -1,0 +1,47 @@
+1er Ejercicio
+Obtener los datos completos de los empleados.
+
+
+
+2do Ejercicio
+Obtener los datos completos de los departamentos.
+
+
+
+3er Ejercicio
+Obtener la cantidad de empleados de sexo femnino.
+
+
+
+4to Ejercicio
+Obtener los empleados que son o han sido "staff". Recordar que es una consulta multi tablas.
+
+
+
+5to Ejercicio
+Agregar el departamento Cienca de Datos.
+
+
+
+6to Ejercicio
+Agregar el empleado "Pepe" y hacerlo jefe ("manager") del departamento Cienca de Datos.
+
+
+
+7mo Ejercicio
+Borrar el empleado "Pepe".
+
+
+
+8vo Ejercicio
+Obtener el promedio de salarios por departamento.
+
+
+
+9no Ejercicio
+Compartir el código en Python para crear en MongoDB una base de datos denominada "weatherHistory" y una colección con el mismo nombre. Cargar los datos del archivo csv denominado weatherHistory.csv
+
+
+
+10mo Ejercicio
+Compartir el código en en Python que devuelva la cantidad de registros insertados en la colección anterior.
